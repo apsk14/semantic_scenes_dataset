@@ -3,7 +3,7 @@ Official dataset for Semantic Implicit Neural Scene Representations With Semi-Su
 
 Code coming soon!! For now please refer to https://github.com/vsitzmann/scene-representation-networks
 
-Please run setup.sh in order to download the dataset. It will create semantic_srn_data/ and download Chair/ and Table/ directories from box.com into it.
+Please run setup.sh in order to download the dataset. It will create 'semantic_srn_data' and download the 'Chair' and 'Table' directories from box.com into it.
 
 The main directory contains all object directories (e.g., Chair) 
 	
