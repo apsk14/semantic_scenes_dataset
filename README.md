@@ -34,11 +34,11 @@ Within each instance are the following elements:
 
 	.
 	├── ...
-	├── 800dd8ed32104151a37f3fc191551700 		# Single object instance (e.g., lawn chair)
+	├── 800dd8ed32104151a37f3fc191551700	# Single object instance (e.g., lawn chair)
 		├── intrinsics.txt                 # Camera intrinsic parameters used to render the images in rgb and seg
 		├── point_cloud                    # Contains point cloud data of the instance (not used)
-			├── sample-points-all-pts-nor-rgba-10000.txt		# point cloud stored as (x y z Nx Ny Nz R G B A)
-			├── sample-points-label-10000.npy			# segmentation class labels for the above point clouds. 
+			├── sample-points-all-pts-nor-rgba-10000.txt	# point cloud stored as (x y z Nx Ny Nz R G B A)
+			├── sample-points-label-10000.npy		# segmentation class labels for the above point clouds. 
 		├── result_after_merging.json      # maps Partnet mesh indices to part names (not used)
 		├── result.json                    # maps Partnet mesh indices to part names for point clouds (not used)
 		├── pose                           # camera extrinsic parameters used to render each image in rgb and seg.
