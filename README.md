@@ -33,6 +33,7 @@ Each split (e.g., Chair.val) contains a number of object instances (e.g., 800dd8
 Within each instance are the following elements:
 
 	.
+	├── ...
 	├── 800dd8ed32104151a37f3fc191551700 		# Single object instance (e.g., lawn chair)
 		├── intrinsics.txt                 # Camera intrinsic parameters used to render the images in rgb and seg
 		├── point_cloud                    # Contains point cloud data of the instance (not used)
@@ -46,4 +47,8 @@ Within each instance are the following elements:
 			├── ...
 		└── seg			           # segmentation maps at each camera view, saved as image-shaped numpy (.npy) arrays with per-pixel class labels
 			├── ...
+	└── ...
 	
+	
+Please direct any questions to apkohli@berkeley.edu
+
